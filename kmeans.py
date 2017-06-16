@@ -31,6 +31,10 @@ def centroids_changed(old_centroids, centroids):
 def group(ints, k):
     # initialize clusters and k centroids
     clusters = np.array_split(ints, k)
+
+    # if we want the initial list sorted then use this instead
+    #  clusters = np.array_split(sorted(ints), k)
+
     centroids = []
 
     for i in range(k):
