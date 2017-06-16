@@ -1,1 +1,3 @@
-git
+This repo was created to answer Mindera's Graduate Program challenge.
+To solve this problem I implemented a custom k-means clustering.
+There are two aproaches that solve different examples. If we want to optimize the algorithm, one should sort the input list. However the output for example 3 and 4 will not be the same as required. On the other hand, if the input is processed in its raw form, this algorithm fails with example 1.
